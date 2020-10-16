@@ -1,7 +1,7 @@
 language: node_js
-node_js: 1
+node_js: 
   - "14"
-install: 2
+install: 
   - npm install
-script: 3
+script: 
   - PORT=0 npm test
